@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		248B945E275F61BA00C84858 /* HabitTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B945D275F61BA00C84858 /* HabitTrackingApp.swift */; };
-		248B9460275F61BA00C84858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B945F275F61BA00C84858 /* ContentView.swift */; };
+		248B9460275F61BA00C84858 /* HabitTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B945F275F61BA00C84858 /* HabitTracking.swift */; };
 		248B9462275F61BA00C84858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248B9461275F61BA00C84858 /* Assets.xcassets */; };
 		248B9465275F61BA00C84858 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248B9464275F61BA00C84858 /* Preview Assets.xcassets */; };
+		248B946E275F649900C84858 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B946D275F649900C84858 /* Habit.swift */; };
+		248B9471275F64B900C84858 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B9470275F64B900C84858 /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		248B945A275F61BA00C84858 /* HabitTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248B945D275F61BA00C84858 /* HabitTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackingApp.swift; sourceTree = "<group>"; };
-		248B945F275F61BA00C84858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		248B945F275F61BA00C84858 /* HabitTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracking.swift; sourceTree = "<group>"; };
 		248B9461275F61BA00C84858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248B9464275F61BA00C84858 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		248B946D275F649900C84858 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		248B9470275F64B900C84858 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		248B945C275F61BA00C84858 /* HabitTracking */ = {
 			isa = PBXGroup;
 			children = (
+				248B946F275F64A300C84858 /* ViewModel */,
+				248B946C275F648900C84858 /* Model */,
+				248B946B275F642A00C84858 /* Views */,
 				248B945D275F61BA00C84858 /* HabitTrackingApp.swift */,
-				248B945F275F61BA00C84858 /* ContentView.swift */,
 				248B9461275F61BA00C84858 /* Assets.xcassets */,
 				248B9463275F61BA00C84858 /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				248B9464275F61BA00C84858 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		248B946B275F642A00C84858 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				248B945F275F61BA00C84858 /* HabitTracking.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		248B946C275F648900C84858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				248B946D275F649900C84858 /* Habit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		248B946F275F64A300C84858 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				248B9470275F64B900C84858 /* Activity.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248B9460275F61BA00C84858 /* ContentView.swift in Sources */,
+				248B946E275F649900C84858 /* Habit.swift in Sources */,
+				248B9460275F61BA00C84858 /* HabitTracking.swift in Sources */,
+				248B9471275F64B900C84858 /* Activity.swift in Sources */,
 				248B945E275F61BA00C84858 /* HabitTrackingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

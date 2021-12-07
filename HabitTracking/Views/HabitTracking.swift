@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HabitTracking: View, Codable {
     var body: some View {
         Text("Hello, world!")
             .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HabitTracking_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HabitTracking()
     }
 }
