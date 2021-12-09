@@ -5,6 +5,8 @@
 //  Created by Amit Shrivastava on 07/12/21.
 //
 
+
+
 import Foundation
 import SwiftUI
 
@@ -28,4 +30,5 @@ class Activity: ObservableObject {
         
         habits = []
     }
+
 }

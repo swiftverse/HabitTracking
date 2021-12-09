@@ -11,7 +11,8 @@ import SwiftUI
 struct HabitTrackingApp: App {
     var body: some Scene {
         WindowGroup {
-            HabitTracking()
+            HabitTracking(activity: Activity())
+                .preferredColorScheme(.dark)
         }
     }
 }

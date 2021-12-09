@@ -12,5 +12,5 @@ struct Habit: Codable, Identifiable, Equatable {
     var id: UUID = UUID()
     let habitName: String
     let habitDescription: String
-    var habitCount: Int
+    var habitCount: Int 
 }

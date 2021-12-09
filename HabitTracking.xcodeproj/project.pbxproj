@@ -13,6 +13,8 @@
 		248B9465275F61BA00C84858 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248B9464275F61BA00C84858 /* Preview Assets.xcassets */; };
 		248B946E275F649900C84858 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B946D275F649900C84858 /* Habit.swift */; };
 		248B9471275F64B900C84858 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B9470275F64B900C84858 /* Activity.swift */; };
+		248B9473275F720D00C84858 /* EntryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B9472275F720D00C84858 /* EntryForm.swift */; };
+		248B9475275F7E2C00C84858 /* HabitDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B9474275F7E2C00C84858 /* HabitDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		248B9464275F61BA00C84858 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		248B946D275F649900C84858 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		248B9470275F64B900C84858 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		248B9472275F720D00C84858 /* EntryForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryForm.swift; sourceTree = "<group>"; };
+		248B9474275F7E2C00C84858 /* HabitDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				248B945F275F61BA00C84858 /* HabitTracking.swift */,
+				248B9472275F720D00C84858 /* EntryForm.swift */,
+				248B9474275F7E2C00C84858 /* HabitDescription.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,9 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				248B946E275F649900C84858 /* Habit.swift in Sources */,
+				248B9475275F7E2C00C84858 /* HabitDescription.swift in Sources */,
 				248B9460275F61BA00C84858 /* HabitTracking.swift in Sources */,
 				248B9471275F64B900C84858 /* Activity.swift in Sources */,
 				248B945E275F61BA00C84858 /* HabitTrackingApp.swift in Sources */,
+				248B9473275F720D00C84858 /* EntryForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
